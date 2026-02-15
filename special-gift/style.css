@@ -1,0 +1,132 @@
+body {
+    background-color: #ff00ff;
+    /* NEON MAGENTA */
+    color: #00ff00;
+    /* NEON GREEN */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: url('https://cur.cursors-4u.net/nature/nat-10/nat976.cur'), auto;
+}
+
+h1 {
+    font-size: 100px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px #000;
+}
+
+.hidden {
+    display: none;
+}
+
+center {
+    margin-top: 100px;
+}
+
+button {
+    border: 10px dashed red;
+    padding: 20px;
+    cursor: wait;
+}
+
+.surprise-timeline {
+    display: block;
+    border: 20px ridge brown;
+    padding: 50px;
+    background: yellow;
+}
+
+.surprise-card {
+    border: 5px solid black;
+    margin: 20px;
+    background: white;
+    color: black;
+    float: left;
+}
+
+.surprise-gallery {
+    clear: both;
+    background: cyan;
+    border: 10px dotted pink;
+}
+
+.surprise-gallery img {
+    border: 10px solid white;
+    margin: 10px;
+    transform: rotate(15deg);
+}
+
+.surprise-message {
+    background: black;
+    color: white;
+    font-size: 30px;
+    border: 20px double yellow;
+    margin-top: 100px;
+}
+
+/* Premium Button for Redirection */
+.premium-button {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #e10032;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(225, 0, 50, 0.4);
+    transition: all 0.3s ease;
+    animation: bounce 2s infinite;
+}
+
+.premium-button:hover {
+    transform: scale(1.1);
+    background-color: #ff4d6d;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.prank-title {
+    font-size: 80px !important;
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
+.bad-img {
+    object-fit: fill !important;
+    filter: grayscale(1) contrast(3) brightness(0.8) sepia(1);
+    border: 5px dashed green !important;
+    opacity: 0.8;
+}
+
+blink {
+    animation: blinker 0.1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
