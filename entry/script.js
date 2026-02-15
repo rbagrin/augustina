@@ -63,6 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle redirect to nice version
     const redirectBtn = document.getElementById('redirect-btn');
     redirectBtn.addEventListener('click', () => {
-        window.location.href = '../index.html';
+        window.location.href = '../gift/index.html';
     });
 });
